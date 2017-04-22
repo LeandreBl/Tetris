@@ -13,4 +13,4 @@ Space to rotate, Up to fast travel down, Down to fall once, Left and Right to mo
 You can use END and HOME keys in order to fast travel from left to right instantly
 Difficulty scale up every 20 seconds.
 
-video
+video https://youtu.be/gQvG6AAhLXQ

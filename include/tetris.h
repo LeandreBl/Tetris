@@ -11,7 +11,7 @@
 #ifndef TETRIS_H_
 # define TETRIS_H_
 
-# include <ncurses.h>
+# include <curses.h>
 # include <unistd.h>
 # include <stdlib.h>
 # include <fcntl.h>
@@ -28,10 +28,10 @@
 # define HELP_ "%sTetris game, press SPACE to rotate and arrow keys to move tetriminos, upper key to fast fall\n%s"
 
 # define PIR_(a) attron(COLOR_PAIR(a) | A_BOLD)
-# define L_ LINES / 2
+# define L_ 65 / 2
 # define C_ 118 / 2
 # define C_J 118 / 2 - 10 + j
-# define L_I LINES / 2 - 25 + i
+# define L_I 65 / 2 - 25 + i
 # define LEN_2(str) my_strlen(str) / 2
 # define CRED     3
 # define CMAGENTA 1
